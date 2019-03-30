@@ -1,5 +1,6 @@
 //Rest operator is just like the ... operator in java . the difference is that dots are in front
 //...arr returns an unpacked array. In other words, it spreads the array.
+//const spreaded = ...arr; // will throw a syntax error
 const sum = (function() {
   "use strict";
   return function sum(...x) {
