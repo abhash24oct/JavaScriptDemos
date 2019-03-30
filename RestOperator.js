@@ -1,3 +1,4 @@
+//Rest operator is just like the ... operator in java . the difference is that dots are in front
 const sum = (function() {
   "use strict";
   return function sum(...x) {
