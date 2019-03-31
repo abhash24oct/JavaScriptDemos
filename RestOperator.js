@@ -12,3 +12,8 @@ const sum = (function() {
   };
 })();
 console.log(sum(1, 2, 3)); // 6
+
+//Since ... returns an unpacked array there is a way we can copy one array to other using spread operator
+
+let arr1 =[1,2,3,4];
+const arr2 = [...arr1];
